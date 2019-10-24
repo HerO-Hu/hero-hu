@@ -5,8 +5,8 @@ client.on('ready', () => {
   console.log(`Hi ${client.user.tag} `);
   console.log(`i Have  [ " ${client.guilds.size} " ]`);
 });
-const developers = "ايدي";
-const adminprefix = "البرفكس";
+const developers = "477101264598073365";
+const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
@@ -36,4 +36,4 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
-client.login("التوكين");
+client.login("NDc3MTAxMjY0NTk4MDczMzY1.XahN0Q.KBpTE6USO92kBQneE5HBa3g-znY");
