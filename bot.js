@@ -36,4 +36,4 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
-client.login("NDc3MTAxMjY0NTk4MDczMzY1.XahN0Q.KBpTE6USO92kBQneE5HBa3g-znY");
+client.login("NDc3MTAxMjY0NTk4MDczMzY1.XbGdqw.kz401DEKFVVbGDUwdKMg193JTJ4");
